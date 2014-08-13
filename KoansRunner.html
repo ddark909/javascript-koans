@@ -20,6 +20,7 @@
   <script type="text/javascript" src="koans/AboutHigherOrderFunctions.js"></script>
   <script type="text/javascript" src="koans/AboutInheritance.js"></script>
   <script type="text/javascript" src="koans/AboutApplyingWhatWeHaveLearnt.js"></script>
+    <script src="koans/homework-spec.js"></script>
 
 </head>
 <body>
@@ -28,7 +29,10 @@
   jasmine.getEnv().addReporter(new JsKoansReporter());
   jasmine.getEnv().execute();
 </script>
-
+<script>
+    var array = ["peanut", "butter", "and", "jelly"];
+    console.log(array.slice(2,2));
+</script>
 
 </body>
 </html>
